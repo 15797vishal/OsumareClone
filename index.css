@@ -1,0 +1,1231 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* this is all about the responsive pages */
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  padding: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 16px;
+  position: sticky;
+  overflow-x: hidden;
+}
+
+.content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  margin-top: -12px;
+  position: relative;
+  background-image: url('./images/layouut1.png');
+  /* Replace 'layout_image.jpg' with your image file path */
+  background-size: cover;
+  /* Make sure the background image covers the entire navbar */
+  background-position: center;
+  /* Center the background image */
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+
+}
+
+/* Style for the logo */
+.navbar img {
+  position: absolute;
+  top: 3px;
+  left: 16px;
+  opacity: 0.6;
+  height: auto;
+  /* Adjust the height as needed */
+  float: left;
+  padding: 10px;
+  height: 65px;
+  /* Adjust the height as needed */
+}
+
+
+/* Style for the button */
+
+.navbar .navbar-button {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(21, 16, 16);
+  border-radius: 81px;
+  cursor: pointer;
+  height: 36px;
+  font-size: 14px;
+}
+
+.navbar .navbar-button:hover {
+  /* font-size: 50px; */
+  background-color: #8798aa;
+  /* Darker shade of blue on hover */
+}
+
+/* Clear floats after the logo and button */
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-device-width: 480px) {
+  body {
+    width: 100%;
+    font-size: 14px;
+}
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+
+}
+
+
+/* Style for the data box */
+.data {
+  position: absolute;
+  top: 2%;
+  /* Adjust as needed */
+  left: 20%;
+  /* Adjust as needed */
+  width: 60%;
+  /* Adjust as needed */
+  padding: 20px;
+  color: rgb(13, 15, 15);
+  box-sizing: border-box;
+  text-align: center;
+  /* Center the content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.data h2 {
+  margin: -11px;
+}
+.pare{
+  margin-top: 15px;
+}
+.data .data-button {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background: #0078FF;
+  border: none;
+  color: rgb(251, 245, 245);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 230px;
+
+}
+
+.data .data-button:hover {
+  width: 228px;
+  box-shadow: 0 8px 16px 0 rgba(14, 42, 152, 0.2), 0 6px 20px 0 rgba(40, 25, 198, 0.19);
+}
+
+.haedline {
+  color: black;
+}
+
+.blue {
+  color: #0b7ae8;
+}
+
+/* maketing images */
+.marketing {
+  max-width: 100%;
+  display: block;
+  margin-top: 180px;
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+.para2 {
+  top: 30px;
+
+}
+
+.real-head {
+  margin-top: -30px;
+  text-align: center;
+  align-items: center;
+}
+
+/* two page css  */
+
+.second-page {
+  margin-top: 330px;
+  background-color: transparent;
+}
+
+.two-page {
+  margin-top: 54px;
+  display: flex;
+  width: 100%;
+  gap: -20px;
+}
+
+.one {
+  margin-left: 30px;
+  width: 45%;
+  height: 300px;
+}
+
+.right-para {
+  width: 365px;
+  margin-left: 14px;
+  width: 43%;
+  text-align: left;
+  height: 300px;
+}
+
+.start {
+  margin-top: 90px;
+  left: 0px;
+  border-radius: 50px;
+  width: 198px;
+  height: 32px;
+  margin-right: 300px;
+  background: rgb(0, 120, 255);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.start:hover {
+  width: 196px;
+  height: 31px;
+  background-color: rgb(0, 120, 255);
+  box-shadow: 0 8px 16px 0 rgba(8, 40, 168, 0.2), 0 6px 20px 0 rgba(25, 5, 245, 0.19);
+}
+
+/* Media Queries */
+@media screen and (max-device-width: 480px)   {
+  .headline {
+    font-size: 20px;
+  }
+
+  .pare {
+    font-size: 16px;
+  }
+  .data .data-button {
+    font-size: 10px;
+margin-top: 58px;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    align-items: center;
+   
+  }
+.data .data-button:hover{
+  font-size: 10px;
+  width: auto;
+  height: 28px;
+  text-align: center;
+}
+.navbar .navbar-button{
+  width: 102px;
+  font-size: 12px;
+  height: 34px;
+  margin-left: 100px;
+}
+.navbar img{
+  font-size: 10px;
+  width: auto;
+  height: 58px;
+  text-align: center;
+}
+
+  .para2 {
+    margin-top: 2px;
+  }
+
+  .real-head {
+    margin-top: -243px;
+  }
+
+  .two-page {
+    font-size: 14px;
+    margin-top: 39px;
+    margin-left: -10px;
+    display: flex;
+    width: 100%;
+    gap: -20px;
+    height: 280px;
+  }
+
+  .start {
+    margin-top: 141px;
+    left: 0px;
+    border-radius: 50px;
+    font-size: 10px;
+    width: 77px;
+    height: 21px;
+    margin-right: 314px;
+    background: rgb(0, 120, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .right-para {
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+
+  .one {
+    height: 250px;
+  }
+
+}
+
+@media screen and ((max-device-width: 480px) ) {
+  .headline {
+    font-size: 18px;
+  }
+
+  .pare {
+    font-size: 14px;
+  }
+
+  .data .data-button {
+    font-size: 10px;
+margin-top: 41px;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    align-items: center;
+   
+  }
+.data .data-button:hover{
+  margin-top: 20px;
+  font-size: 10px;
+  width: auto;
+  height: 28px;
+  text-align: center;
+}
+.navbar .navbar-button{
+  width: 102px;
+  font-size: 12px;
+  height: 34px;
+  margin-left: 100px;
+}
+.navbar img{
+  font-size: 10px;
+  width: auto;
+  height: 58px;
+  text-align: center;
+}
+
+  .para2 {
+    margin-top: 2px;
+  }
+
+  .real-head {
+    margin-top: -243px;
+  }
+
+  .two-page {
+    font-size: 14px;
+    margin-top: 39px;
+    margin-left: -10px;
+    display: flex;
+    width: 100%;
+    gap: -20px;
+    height: 280px;
+  }
+
+  .start {
+    margin-top: 107px;
+    left: 0px;
+    border-radius: 50px;
+    font-size: 10px;
+    width: 77px;
+    height: 21px;
+    margin-right: 314px;
+    background: rgb(0, 120, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .right-para {
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+
+  .one {
+    height: 250px;
+  }
+}
+
+/* this is about the small boxes and dat a */
+.second-details {
+  margin-top: 65px;
+  text-align: center;
+  align-items: center;
+}
+
+.small-data {
+  width: 100%;
+  margin-left: -5px;
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 15px;
+}
+
+.small-boxes {
+
+  background-color: rgb(252, 252, 252);
+  width: 45%;
+  height: 179px;
+  margin-left: 12px;
+  border-radius: 12px;
+}
+
+.left-text {
+  margin-top: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.small-para {
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and(max-device-width: 480px)  {
+  .service {
+    font-size: 20px;
+  }
+
+  .second-details p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-device-width: 480px)  {
+  .service {
+    font-size: 18px;
+  }
+
+  .second-details p {
+    font-size: 14px;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-device-width: 480px) {
+  .small-boxes {
+    margin: 8px;
+    margin-left: 5px;
+    width: 96%;
+    height: 183px;
+    margin-right: 4px;
+    border-radius: 13px;  
+  }
+
+  
+  .small-para {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    font-size: 10px;
+  }
+
+  .small-data {
+    margin-left: 2px;
+    gap: 5px;
+    width: 100%;
+  }
+
+}
+
+.small-boxes i {
+  border: 10px solid transparent;
+  border-radius: 69px;
+  color: rgb(16 70 171 / 91%);
+  font-size: 20px;
+  background-color: #e5e5ed;
+  width: 11%;
+  gap: 10px;
+  height: 200px;
+}
+
+.small-para {
+  font-size: 13px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+  .small-boxes i {
+    color: red;
+  }
+
+  .small-boxes img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* this is about the real estate data  */
+    .real-estate{
+      margin-top: 50px;
+      text-align: center;
+     
+    }
+
+  @media screen and (max-device-width: 480px) {
+    .real-line {
+      font-size: 14px; /* Adjust font size for tablets */
+      width: 100%;
+      text-align: center;
+    }
+  
+    .real-para {
+      font-size: 12px; 
+      width: 100%;
+      text-align: center; 
+    }
+    .real-estate{
+      height: 60px;
+      align-items: center;
+      text-align: center;
+    }
+
+  }
+
+
+.left-data{
+  width: 60%;
+  
+}
+.right-data {
+  width: 60%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+}
+
+  /* this is about the  */
+  
+  @media screen and (max-device-width: 480px) {
+    .real-line {
+      font-size: 14px; /* Adjust font size for tablets */
+      width: 100%;
+      text-align: center;
+    }
+  
+    .real-para {
+      margin: 10px;
+      font-size: 10px; 
+      width: 100%;
+      text-align: center; 
+    }
+    .real-estate{
+      margin-top: 20px;
+      height: 40px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .left-data{
+width: 100%;
+      margin-left: 10px;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  
+  .real-data {
+    /* background-color: rgb(106, 69, 69); */
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 2px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+  }
+
+  .para-image {
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #fffbfb ;
+    padding: 19px;
+    border-radius: 18px;
+  }
+.para-image div {
+  margin-left: 20px;
+}
+  .image-man {
+    margin-left: 10px;
+    width: 103%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+    height: 402px;
+  }
+
+  .image-man img{
+    margin-right: 40px;
+    width: 100%;
+    height: 511px;
+    margin-top: 128px;
+    gap: 10px;
+  }
+
+  .image-man .imgs{
+    width: 100%;
+  }
+
+  @media screen and (max-device-width: 480px) {
+    .real-data {
+      flex-direction: column;
+      width: 100%;
+      height: 600px;
+      text-align: right;
+      align-items: center;
+    }
+    .para-image img{
+      margin: 10px;
+      margin-left: 5px;
+    }
+   
+   .para-image div p{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+      align-items: center;
+   }
+    .left-data{
+      width: 100%;
+      margin-left: 3px;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .right-data {
+      width: 100%;
+      margin-top: 200px;
+      margin-left: 55px;
+      flex: 1;
+      width: 100%;
+      font-size: 30px;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .para-image {
+    margin-top: 10px;
+      background-color: rgb(252, 252, 252);
+      width:94%;
+      height: 90px;
+      text-align: center;
+      align-items: center;
+    
+    }
+    .image-man img{
+      margin-top: 500px;
+    margin-left: -10px;
+    height: 429px;
+    width: 100%;
+    margin-right: 51px;
+    margin-bottom: 405px;
+    }
+  }
+
+  @media screen  and (max-device-width: 480px){
+    .para-image {
+      margin-top: 10px;
+        background-color: rgb(252, 252, 252);
+        width:96%;
+        height: 90px;
+      }
+     
+      .real-data {
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+      }
+  }
+
+  @media screen  and (max-device-width: 480px){
+    .para-image {
+      margin: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
+        background-color: rgb(252, 252, 252);
+        width:87%;
+        height: 90px;
+      
+      }
+  }
+  
+ 
+
+  /* this is about the driving  */
+  .driving {
+    margin-top: 30px;
+  }
+
+  @media screen  and (max-device-width: 480px){
+    .driving{
+      margin-top: 6px;
+    }
+    .head-drive{
+      width: auto;
+    }
+
+    .drive-data {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      display: flex;
+      width: 100%;
+      gap: 40px;
+    }
+    .drive-imgs{
+      width: 100%;
+    }
+  
+    .imgs-drive {
+      width: 0px;
+      display: none;
+    }
+    .drive-button{
+      margin-top: 20px;
+      align-items: center;
+      text-align: center;
+    }
+    .drive-para h3{
+      margin-bottom: 10px;
+    }
+    .drive-property{
+      margin-top: 90px;
+      gap: 2px;
+      width: 97%;
+    }
+    .property-data img{
+      width: 110px;
+      margin: 10px;
+    }
+    .property-data{
+      margin-top: 200px;
+      height: auto;
+    }
+    .prop-para {
+      margin-top: 10px;
+      /* height: 200px; */
+    }
+  }
+
+
+  .drive-data {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    gap: 4px;
+  }
+
+  .imgs-drive img {
+    width: 100%;
+    height: 244px;
+    margin-left: 5px;
+  }
+  .drive-paras {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .drive-para {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 60%;
+    text-align: left;
+    
+  }
+
+  .drive-button {
+    margin-top: 118px;
+    left: 0;
+    border-radius: 50px;
+    width: 132px;
+    height: 32px;
+    margin-right: 300px;
+    background: #0078FF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+  }
+
+  .drive-button:hover {
+    background: #0078FF;
+    box-shadow: 0 8px 16px 0 rgba(8, 40, 168, 0.2), 0 6px 20px 0 rgba(25, 5, 245, 0.19);
+  }
+
+  .head-property{
+    margin-top: 10px;
+  }
+
+  .drive-property {
+    margin-top: 40px;
+    display: flex;
+    gap: 90px;
+  }
+
+  .property-data {
+    width: 100%;
+    height: 270px;
+  }
+
+  .prop-para {
+    width: 90%;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    text-wrap: wrap;
+  }
+
+  /* our expertize */
+  .expertise h2 {
+    margin-top: 40px;
+    color: rebeccapurple;
+  }
+
+  .down {
+    margin-top: 60px;
+  }
+  .prop-paragraph{
+    margin-top: 25px;
+    width: auto;
+  }
+
+  /* this is about the small lines data and paragraph */
+
+  @media only screen and (max-device-width: 480px) {
+    .line {
+      font-size: 20px; /* Adjust font size for tablet devices */
+    }
+    
+    .line-para {
+      font-size: 14px; /* Adjust font size for tablet devices */
+    }
+  }
+  
+  @media only screen and (max-device-width: 480px){
+    .line {
+      font-size: 18px; /* Adjust font size for mobile devices */
+    }
+    
+    .line-para {
+      font-size: 12px; /* Adjust font size for mobile devices */
+      height: auto;
+    }
+  }
+
+  /* Media query for mobile devices */
+@media screen and (max-device-width: 480px) {
+  .headline-vdo {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+  
+  .vdo-para {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+ .play {
+    width: 80px; /* Adjust width for smaller screens */
+  }
+  .play-line{
+    align-items: center;
+    margin-left: -20px;
+    max-width: none;
+  }
+
+  .line-vdo {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  
+}
+
+/* Media query for tablet devices */
+@media screen and (max-device-width: 480px)  {
+  .headline-vdo {
+    font-size: 22px; /* Adjust font size for tablet screens */
+  }
+  
+  .vdo-para {
+    font-size: 16px; /* Maintain font size for tablet screens */
+  }
+
+.play {
+    width: 100px; /* Maintain width for tablet screens */
+    background-color: navy;
+  }
+
+  .small-vdo  {
+    max-width: none; /* Adjust max width for smaller screens */
+   
+  }
+  .small-vdo img{
+    width: 100%;
+  }
+
+  .line-vdo {
+    font-size: 14px; /* Maintain font size for tablet screens */
+  }
+
+  .flexvdo{
+    margin-top: 20px;
+    width: auto;
+    max-width: none;
+  }
+  
+}
+
+  .small-line {
+    margin-top: 8px;
+    left: 0;
+    border-radius: 50px;
+    width: 132px;
+    height: 32px;
+    background: #0078FF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+  }
+
+  .small-line:hover {
+    background: #0078FF;
+    box-shadow: 0 8px 16px 0 rgba(8, 40, 168, 0.2), 0 6px 20px 0 rgba(25, 5, 245, 0.19);
+  }
+ 
+
+  /* this is about the small vdo line  */
+  .flexvdo {
+    margin-top: 30px;
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 3px 1px 7px 5px rgb(207, 214, 215);
+    display: flex;
+    width: 100%;
+    height: 330px;
+    gap: 5px;
+  }
+
+
+.line-para{
+  margin-left: 17px;  
+  width: auto;
+}
+  .play {
+    width: 42%;
+    margin-top: 10px;
+    height: 310px;
+    margin-left: 2px;
+  }
+
+  .play-line {
+    width: 60px;
+    font-size: 4px;
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .small-vdo {
+    margin-top: 12px;
+    width: 48%;
+    height: 307px;
+    text-align: left;
+    margin-left: 43px;
+  }
+  .small-vdo img{
+    width: 100%;
+  }
+  .small-vdo .line-vdo{
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .left-right {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 90px;
+  }
+
+  /* faq */
+  .faq {
+    margin-top: 30px;
+    width: auto;
+    position: sticky;
+  }
+  .faq img{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .connect {
+    margin-top: 16px;
+  }
+
+  .connect  .connect-para {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+.contact-us{
+  margin: 25px;
+}
+
+/* this is about the login page and responsive page also  */
+@media screen and(max-device-width: 480px) {
+  .login-container{
+    flex-direction: column-reverse;
+  }
+  .login-form {
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 100%; /* Remove maximum width constraint */
+  }
+  
+}
+  .login-container {
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    background-color: hwb(0deg 96.8% 3.2%);
+    height: 360px;
+    box-shadow: 3px 1px 7px 5px rgb(207, 214, 215);
+  }
+
+  .login-form {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 38%;
+    height: 260px;
+    margin-left: 2px;
+  }
+
+  .message-container {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 40%;
+    height: 260px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .labels {
+    text-align: left;
+    margin-right: 273px;
+  }
+
+  .input-group input,
+  .input-group textarea {
+    margin-top: 5px;
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .input-group textarea {
+    resize: vertical;
+  }
+
+  textarea {
+    width: 98%;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .sends {
+    margin-top: 8px;
+    left: 0;
+    border-radius: 50px;
+    width: 192px;
+    height: 32px;
+    background: #0078FF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+  }
+
+  .sends:hover {
+    background: #0078FF;
+    box-shadow: 0 8px 16px 0 rgba(8, 40, 168, 0.2), 0 6px 20px 0 rgba(25, 5, 245, 0.19);
+  }
+
+  @media screen and (max-width:480px) {
+    .sends{
+      width: 108px;
+    }
+  }
+
+  /* footer */
+  .footer {
+    margin-top: 50px;
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer  a:hover{
+  color: rgb(33, 234, 14);
+  position: static;
+}
+.column { 
+  text-align: left;
+  flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+   background:  linear-gradient(to  right, rgb(249, 247, 247) -11%, transparent 101%, blue 18%, blue 107%);
+  }
+
+
+
+.column .logo{
+  align-items: center;
+  text-align: center;
+}
+.log-details{
+  text-align: left;
+}
+.column img{
+  width: 150px;
+  height: auto;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+footer a{
+  text-decoration: none;
+}
+.column  .contacts{
+  text-align: left;
+}
+.column .addrs{
+  text-align: left;
+}
+.column h3{
+margin-top: 20px;
+  text-align: center;
+}
+.column .media  {
+  margin-top: 49px;
+  text-align: center;
+
+}
+.media span a img{
+  width: 40px;
+  text-align: center;
+  gap: 20px;
+  height: auto;
+  cursor: pointer;
+}
+/* Remove bullets from anchor tags */
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-device-width: 480px){
+    .footer {
+      margin-top: 80px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .column {
+        /* flex: none; */
+        width: 20%;
+        margin-bottom: 20px;
+    }
+    .bottom-data{
+      margin-top: 20px;
+    }
+   
+}
+
+.bottom-data{
+  margin-top: 20px;
+}
+
+
+  
+
+  
